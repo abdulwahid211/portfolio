@@ -1,0 +1,259 @@
+.home-container {
+  background-image: url("/images/homebk.jpg");
+  background-size: 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  z-index: -1;
+}
+
+.main-title {
+  padding-bottom: 0px;
+  margin-bottom: -20px;
+  font-size: 2.2em;
+}
+.social-media-icons-top {
+  z-index: 3;
+}
+
+.home-content h4 {
+  z-index: 3;
+}
+
+.home-content {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.social-media-icons-top a {
+  padding: 2px;
+  height: 100%;
+  text-decoration: none;
+  align-content: center;
+  z-index: 3;
+}
+
+#black-middle-pattern {
+  position: absolute;
+  z-index: 1;
+  animation: rotation-clockwise 20s infinite;
+  animation-timing-function: linear;
+  border: 0;
+  width: 40%;
+  height: auto;
+  pointer-events: none;
+}
+
+#white-bottom-pattern {
+  position: absolute;
+  left: 0px;
+  top: 550px;
+  animation: rotation-clockwise 20s infinite;
+  animation-timing-function: linear;
+  width: 40%;
+  height: auto;
+  z-index: 1;
+  pointer-events: none;
+}
+
+#white-top-pattern {
+  position: absolute;
+  right: 0px;
+  top: 550px;
+  animation: rotation-anticlockwise 20s infinite;
+  animation-timing-function: linear;
+  width: 40%;
+  height: auto;
+  z-index: 1;
+  pointer-events: none;
+}
+
+@keyframes rotation-clockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation-anticlockwise {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+//Media queries 1440px - desktop size
+@media only screen and (max-width: 1440px) {
+  #black-middle-pattern {
+    width: 48%;
+    height: auto;
+  }
+  #white-bottom-pattern {
+    width: 36%;
+    height: auto;
+    top: 480px;
+  }
+
+  #white-top-pattern {
+    width: 36%;
+    height: auto;
+    top: 480px;
+  }
+}
+
+//Media queries 1024px - ipad size
+@media only screen and (max-width: 1200px) {
+  #black-middle-pattern {
+    width: 50%;
+    height: auto;
+  }
+  #white-bottom-pattern {
+    width: 36%;
+    height: auto;
+    top: 480px;
+  }
+
+  #white-top-pattern {
+    width: 36%;
+    height: auto;
+    top: 480px;
+  }
+}
+
+//Media queries 1024px - desktop size
+@media only screen and (max-width: 1024px) {
+  #black-middle-pattern {
+    width: 60%;
+    height: auto;
+  }
+  #white-bottom-pattern {
+    width: 36%;
+    height: auto;
+    top: 530px;
+  }
+
+  #white-top-pattern {
+    width: 36%;
+    height: auto;
+    top: 530px;
+  }
+}
+
+//Media queries 800px - iphone landscape
+@media only screen and (max-width: 900px) {
+  .home-content {
+    min-height: 100vh;
+  }
+
+  .main-title {
+    z-index: 4;
+    font-size: 3.5rem;
+  }
+
+  #black-middle-pattern {
+    position: absolute;
+    left: 400px;
+    width: 65%;
+    height: auto;
+  }
+  #white-bottom-pattern {
+    width: 50%;
+    left: -90px;
+    height: auto;
+    top: 200px;
+  }
+}
+
+// //Media queries 800px - iphone landscape
+@media only screen and (max-width: 500px) {
+  .home-container {
+    background-image: url("/images/homebk.jpg");
+    background-size: 350%;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+  .home-content {
+    min-height: 100vh;
+  }
+  .main-title {
+    z-index: 4;
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 0;
+  }
+
+  .social-media-icons-top {
+    z-index: 3;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 0;
+  }
+
+  .social-media-icons-top a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .sub-title{
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+    margin: 0;
+  }
+
+ 
+  #black-middle-pattern {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 140%;
+  }
+  #white-top-pattern {
+    position: absolute;
+    width: 100%;
+    right: 200px;
+  }
+
+  #white-bottom-pattern {
+    display: none;
+  }
+}
+
+
+// //Media queries 800px - iphone landscape
+@media only screen and (max-width: 300px) {
+
+
+  .main-title {
+    z-index: 4;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+
+
+  .social-media-icons-top {
+    z-index: 3;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 0;
+  }
+
+  .social-media-icons-top a {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+
+}
