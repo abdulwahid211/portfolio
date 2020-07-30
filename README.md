@@ -4,12 +4,12 @@
  
    * Desktop View 
    
-   ![Screenshot](../my-project/public/images/desktop.png)
+   ![Screenshot](../public/images/desktop.png)
    
 
    * Mobile View    
    
-   ![Screenshot](../my-project/public/images/mobile.jpeg)
+   ![Screenshot](../public/images/mobile.jpeg)
    
 
 # Usage
