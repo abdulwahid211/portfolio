@@ -21,6 +21,10 @@ export default class Projects extends Component {
         }
     }
 
+    getYear = ()=>{
+        return new Date().getFullYear()
+    }
+
 
     render() {
         return (
@@ -42,17 +46,6 @@ export default class Projects extends Component {
                     </div>
 
                     <div className="items">
-                    <a href="https://startuition.org.uk/index.html">
-                        <img src={startuition} alt="Star Tuition" />
-                        <span className="text-wrapper">
-                            <span className="project-name">Star Tuition</span>
-                            <br></br>
-                            <span className="tech-stack">HTML | CSS | Javascript | PHP</span>
-                        </span>
-                        </a>
-                    </div>
-
-                    <div className="items">
                     <a href="https://csproject.wordpress.com/">
                         <img src={rfc} alt="NFC Doorlock System" />
                         <span className="text-wrapper">
@@ -69,7 +62,7 @@ export default class Projects extends Component {
                         alt="Arrow" height="40px" width="40px" id="bottom-arrow"
                         onMouseOver={() => this.setState({ switchArrow: false })} onMouseOut={() => this.setState({ switchArrow: true })} />
                     <SocialMediaIcons ClassName="social-media-icons-bottom" />
-                © 2020 Abdul Wahid
+                ©  {this.getYear()}  Abdul Wahid
                 </footer>
             </div>
         );

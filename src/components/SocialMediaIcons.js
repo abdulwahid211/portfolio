@@ -36,11 +36,8 @@ export default class ScoialMediaIcons extends Component {
                 </a>
                 <a href="https://github.com/abdulwahid211" className="github"> <img src={this.state.switchGit ? gitNon : gitHov} onMouseOver={() => this.setState({ switchGit: false })} onMouseOut={() => this.setState({ switchGit: true })}
                     width={this.social_media_icon_width} height={this.social_media_icon_height} /> </a>
-                <a href="https://twitter.com/abdulwahid211" className="twitter"> <img src={this.state.switchTwitter ? twitterNon : twitterHov}
-                    onMouseOver={() => this.setState({ switchTwitter: false })} onMouseOut={() => this.setState({ switchTwitter: true })}
-                    width={this.social_media_icon_width} height={this.social_media_icon_height} /> </a>
-                <a href="../files/AbdulWahid.pdf" className="cv"> <img src={this.state.switchCV ? cvNon : cvHov} onMouseOver={() => this.setState({ switchCV: false })} onMouseOut={() => this.setState({ switchCV: true })}
-                    width={this.social_media_icon_width} height={this.social_media_icon_height} /> </a>
+                {/* <a href="../files/AbdulWahid.pdf" className="cv"> <img src={this.state.switchCV ? cvNon : cvHov} onMouseOver={() => this.setState({ switchCV: false })} onMouseOut={() => this.setState({ switchCV: true })}
+                    width={this.social_media_icon_width} height={this.social_media_icon_height} /> </a> */}
             </div>
         );
     }
