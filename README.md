@@ -1,6 +1,6 @@
 # React portfolio webapp  
 
-## URL: www.abdulwahiddev.com
+## URL: https://www.abdulwahid.uk
  
    * Desktop View 
    
@@ -17,10 +17,5 @@
 * First run `npm install`
 
 * Then run  `npm run dev` to run the app in local environment.
-
-# Need Help
-If you have enquiries regarding this repo project, don't hesitate to contact me!
-
-Follow me on Twitter, [here](https://twitter.com/abdulwahid211)
 
 
