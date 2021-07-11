@@ -40,7 +40,7 @@ export default class Projects extends Component {
                             <span className="text-wrapper">
                                 <span className="project-name">Raj Rani</span>
                                 <br></br>
-                                <span className="tech-stack">HTML | CSS | Javascript | Django</span>
+                                <span className="tech-stack">HTML | CSS | React</span>
                             </span>
                         </a>
                     </div>
