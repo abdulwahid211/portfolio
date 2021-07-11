@@ -35,7 +35,7 @@ export default class Projects extends Component {
                 <div className="gallery">
 
                     <div className="items">
-                        <a href="http://www.rajraniwigmore.com/">
+                        <a href="https://rajrani.herokuapp.com">
                             <img src={rajrani} alt="raj rani" />
                             <span className="text-wrapper">
                                 <span className="project-name">Raj Rani</span>
