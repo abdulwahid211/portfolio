@@ -11,7 +11,7 @@ export default class About extends Component {
 
                 <p className="about-info">
                     An IT professional, with strong interests in software development, seeking a new opportunity to transition from test engineering to software development. Currently, working on multiple projects. Very soon will be sharing all them in my portfolio page.
-                    Meanwhile you can checkout my Github repository for watching my ongoing projects and connect with me on twitter for updates 
+                    Meanwhile you can checkout my Github repository for watching my ongoing projects and connect with me on Linkedin for updates 
                     
                 </p>
 
