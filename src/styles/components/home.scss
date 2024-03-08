@@ -1,5 +1,5 @@
 .home-container {
-  background-image: url("/images/homebk.jpg");
+   background-image: url("~/public/images/homebk.jpg");
   background-size: 100%;
   background-position: center;
   width: 100%;
@@ -177,7 +177,7 @@
 // //Media queries 800px - iphone landscape
 @media only screen and (max-width: 500px) {
   .home-container {
-    background-image: url("/images/homebk.jpg");
+    background-image: url("~/public/images/homebk.jpg");
     background-size: 350%;
     background-position: center;
     width: 100%;
@@ -233,27 +233,20 @@
 
 // //Media queries 800px - iphone landscape
 @media only screen and (max-width: 300px) {
-
-
   .main-title {
     z-index: 4;
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 0;
   }
-
-
   .social-media-icons-top {
     z-index: 3;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 0;
   }
-
   .social-media-icons-top a {
     padding-left: 1px;
     padding-right: 1px;
   }
-
-
 }

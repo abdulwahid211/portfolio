@@ -3,4 +3,4 @@ import ReactDOM from 'react-dom';
 import './styles/styles.scss';
 import Layout from './components/Layout';
 
-ReactDOM.render(<Layout />, document.getElementById('app'));
+ReactDOM.render(<Layout />, document.getElementById('root'));
