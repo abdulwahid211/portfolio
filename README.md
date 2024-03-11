@@ -14,4 +14,4 @@
 
 * First run `npm install`
 
-* Then run  `npm run start` to run the app in local environment localhost:8080.
+* Then run  `npm run start` then the webapp will run on localhost:8080.
