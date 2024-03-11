@@ -25,4 +25,6 @@ jobs:
         script: | 
           cd ~
           git clone https://github.com/abdulwahid211/portfolio.git
+          cd portfolio
+          npm install
           echo "Deployment successful to digital ocean"
