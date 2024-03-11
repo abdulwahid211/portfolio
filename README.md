@@ -13,5 +13,5 @@
 # Usage
 
 * First run `npm install`
-
-* Then run  `npm run start` then the webapp will run on localhost:8080.
+* Then run `npm run build`
+* Finally run  `npm run start` then the webapp will run on localhost:8080.
