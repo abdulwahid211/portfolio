@@ -24,7 +24,16 @@ jobs:
 
         script: | 
           cd ~
+          dir = /root/portfolio
+          if [ -d -d $dir] then
+          then
+           echo "Portfolio exists."
+           cd portfolio
+           git pull origin
+           npm install
+          else
           git clone https://github.com/abdulwahid211/portfolio.git
           cd portfolio
           npm install
+          fi
           echo "Deployment successful to digital ocean"
