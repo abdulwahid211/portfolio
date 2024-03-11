@@ -31,11 +31,14 @@ jobs:
            cd portfolio
            git pull origin
            npm install
+           npm run build
+           pm2 stop all 
            pm2 start server.js
           else
           git clone https://github.com/abdulwahid211/portfolio.git
           cd portfolio
           npm install
+          npm run build
           pm2 start server.js
           fi
           echo "Deployment successful to digital ocean"
