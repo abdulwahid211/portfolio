@@ -25,7 +25,7 @@ jobs:
         script: | 
           cd ~
           dir=/root/portfolio
-          if [ -d $dir] then
+          if [ -d $dir ] then
           then
            echo "Portfolio exists."
            cd portfolio
