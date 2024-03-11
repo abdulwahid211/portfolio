@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x, 16.x, 18.x]
+        node-version: [ 18.x]
 
     steps:
     - name: Deploy 
@@ -24,5 +24,5 @@ jobs:
 
         script: | 
           cd ~
-          git clone git@github.com:abdulwahid211/portfolio.git
+          git clone https://github.com/abdulwahid211/portfolio.git
           echo "Deployment successful to digital ocean"
