@@ -26,3 +26,15 @@ jobs:
       run: |
         npm install
         npx webpack
+
+    - name: Deploy 
+      uses: appleboy/ssh-action@v0.1.10
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        key: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USERNAME }}
+
+        script: | 
+          cd ~
+          git clone git@github.com:abdulwahid211/portfolio.git
+          echo "Deployment successful to digital ocean"
