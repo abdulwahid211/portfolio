@@ -1,6 +1,6 @@
 # React portfolio webapp  
 
-## URL: <https://www.abdulwahid.co.uk>
+## URL: <https://www.abdulwahid.uk>
 
 * Desktop View
 
