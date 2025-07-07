@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
     {
       name: 'Lembu App',
       src: lembu,
-      href: 'https:lembu.app',
+      href: 'https://www.lembu.app',
       alt: 'Lembu App IOS and Android app',
       techStack: 'React Native  \u2022  C# ASP.NET  \u2022  SQL',
       desc: 'helping local businesses track their orders',
