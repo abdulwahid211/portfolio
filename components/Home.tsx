@@ -9,9 +9,7 @@ export default function Home() {
     <div className="home-container" id="home">
       <NavBar />
       <div className="home-content">
-        <h1 className="main-title">
-          <a href="/">ABDUL WAHID</a>
-        </h1>
+        <h1 className="main-title">ABDUL WAHID</h1>
         <h4 className="sub-title">SOFTWARE ENGINEER</h4>
         <SocialMediaIcons classNamePosition="social-media-icons-top" />
         <img

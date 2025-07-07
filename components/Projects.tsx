@@ -5,7 +5,8 @@ import Image from 'next/image'
 import { animateScroll as scroll } from 'react-scroll'
 
 import rajrani from '../public/images/rajrani.png'
-import startuition from '../public/images/startuition.png'
+import landsea from '../public/images/landsea.png'
+import lembu from '../public/images/lembu.png'
 import rfc from '../public/images/rfc.png'
 import arrow from '../public/images/arrow.png'
 import arrowHov from '../public/images/arrowHov.png'
@@ -24,34 +25,34 @@ const Projects: React.FC = () => {
   const projects = [
     {
       name: 'Lembu App',
-      src: rajrani,
-      href: 'https:lembuapp.com',
+      src: lembu,
+      href: 'https:lembu.app',
       alt: 'Lembu App IOS and Android app',
-      techStack: 'React Native | C# ASP.NET | SQL',
+      techStack: 'React Native  \u2022  C# ASP.NET  \u2022  SQL',
       desc: 'helping local businesses track their orders',
+    },
+    {
+      name: 'LandSea Recruitment',
+      src: landsea,
+      href: '/landsea',
+      alt: 'LandSea Recruitment',
+      techStack: 'React  \u2022  C# ASP.NET  \u2022  SQL',
+      desc: 'Helping people find local jobs',
     },
     {
       name: 'Raj Rani Takeway',
       src: rajrani,
       href: '/rajrani',
       alt: 'Raj Rani takeway website',
-      techStack: 'React | TailwindCSS | NextJS',
+      techStack: 'React  \u2022  TailwindCSS \u2022  NextJS',
       desc: 'static Indian takeway site',
-    },
-    {
-      name: 'LandSea Recruitment',
-      src: rajrani,
-      href: '/landsea',
-      alt: 'LandSea Recruitment',
-      techStack: 'React | C# ASP.NET | SQL',
-      desc: 'Helping people find local jobs',
     },
     {
       name: 'NFC Doorlock System',
       src: rfc,
       href: 'https://csproject.wordpress.com/',
       alt: 'NFC Doorlock System',
-      techStack: 'Python | Raspberry Pi | NFC Reader',
+      techStack: 'Python  \u2022  Raspberry Pi  \u2022  NFC Reader',
       desc: 'NFC Doorlock System using Raspberry Pi',
     },
   ]

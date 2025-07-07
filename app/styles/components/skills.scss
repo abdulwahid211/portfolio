@@ -30,7 +30,7 @@
 
 //Media queries 1024px - desktop size
 @media only screen and (max-width: 1200px) {
-  .skill-item {
+  .skills-item {
     flex-basis: 25%;
     width: 10%;
     text-align: center;
@@ -39,7 +39,7 @@
 
 //Media queries 1024px - desktop size
 @media only screen and (max-width: 500px) {
-  .skill-item {
+  .skills-item {
     flex-basis: 50%;
     width: 10%;
     text-align: center;
