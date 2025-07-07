@@ -1,5 +1,5 @@
 .home-container {
-   background-image: url("~/public/images/homebk.jpg");
+  background-image: url('~/public/images/homebk.jpg');
   background-size: 100%;
   background-position: center;
   width: 100%;
@@ -177,7 +177,7 @@
 // //Media queries 800px - iphone landscape
 @media only screen and (max-width: 500px) {
   .home-container {
-    background-image: url("~/public/images/homebk.jpg");
+    background-image: url('~/public/images/homebk.jpg');
     background-size: 350%;
     background-position: center;
     width: 100%;
@@ -205,14 +205,13 @@
     padding-right: 10px;
   }
 
-  .sub-title{
+  .sub-title {
     font-size: 2rem;
     font-weight: 500;
     padding-bottom: 10px;
     margin: 0;
   }
 
- 
   #black-middle-pattern {
     position: absolute;
     top: 50px;
@@ -229,7 +228,6 @@
     display: none;
   }
 }
-
 
 // //Media queries 800px - iphone landscape
 @media only screen and (max-width: 300px) {
