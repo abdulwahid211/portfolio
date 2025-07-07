@@ -16,7 +16,7 @@ COPY . .
 # Expose the port the app runs on
 # Expose the Next.js default port
 # Expose port 80 for the application
-EXPOSE 3000
+EXPOSE 8080
 
 
 RUN npm run build
